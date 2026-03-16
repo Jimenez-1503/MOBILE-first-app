@@ -18,11 +18,12 @@ export default function Exercicio5() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-flex:1,
 
+  container: {
+    flex:1,
     gap: 18,
   },
+
   textStyle: {
     color: "white",
     fontWeight: "bold",
@@ -39,4 +40,5 @@ flex:1,
     alignItems: "center",
     justifyContent: "center",
   },
+  
 });
