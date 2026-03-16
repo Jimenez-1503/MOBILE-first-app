@@ -9,7 +9,7 @@ export default function Exemplo02() {
         <View style={[styles.box, { flex: 1 }]}>
           <Text style={styles.textBox}>1</Text>
         </View>
-        <View style={[styles.box, { flex: 2 }]}>
+        <View style={[styles.box, { flex: 1 }]}>
           <Text style={styles.textBox}>2</Text>
         </View>
         <View style={[styles.box, { flex: 1 }]}>
@@ -24,6 +24,12 @@ export default function Exemplo02() {
         <View style={[styles.box, { width: 80 }]}></View>
         <View style={[styles.box, { width: 80 }]}></View>
         <View style={[styles.box, { width: 80 }]}></View>
+        <View style={[styles.box, { width: 80 }]}></View>
+        <View style={[styles.box, { width: 80 }]}></View>
+        <View style={[styles.box, { width: 80 }]}></View>
+        <View style={[styles.box, { width: 80 }]}></View>
+        <View style={[styles.box, { width: 80 }]}></View>
+
       </View>
     </View>
   );
