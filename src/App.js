@@ -6,12 +6,15 @@ import Exercicio07 from './Lista-2 (FlexBox e ViewComponent)/exercicio-7';
 import Exercicio6  from './Lista-2 (FlexBox e ViewComponent)/exercicio-6';
 import Exercicio08 from './Lista-2 (FlexBox e ViewComponent)/exercicio-8';
 import Exercicio09 from './Lista-2 (FlexBox e ViewComponent)/exercicio-9';
+import ContadorExemplo from './hooks/useState-exemplo';
+import TelaDeLogin from './hooks/useRef-exemplo';
+import TelaMoeda from './hooks/useEffect-exemplo';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exercicio09/>
+      <TelaMoeda/>
     </View>
   );
 }
