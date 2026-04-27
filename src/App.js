@@ -1,17 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
+
 import { StyleSheet, Text, View } from 'react-native';
+import Exercico1 from './Prova - Pedro Jimenez/ex-01';
+import Exercicio02 from './Prova - Pedro Jimenez/ex-02';
+import Exercicio07 from './Lista-2 (FlexBox e ViewComponent)/exercicio-7';
+import Exercicio6  from './Lista-2 (FlexBox e ViewComponent)/exercicio-6';
+import Exercicio08 from './Lista-2 (FlexBox e ViewComponent)/exercicio-8';
+import Exercicio09 from './Lista-2 (FlexBox e ViewComponent)/exercicio-9';
 
-import Exemplo from './basic_components/view-exemplo-01'
-import Exemplo02 from './basic_components/view-exemplo-02';
-import Exemplo01 from './basic_components/view-exemplo-01';
-import Lista01 from './Lista-2 (FlexBox e ViewComponent)/exercicio(1-4)';
-import Exercicio5 from './Lista-2 (FlexBox e ViewComponent)/exercicio-5';
-import Exercicio6 from './Lista-2 (FlexBox e ViewComponent)/exercicio-6';
 
-export default function () {
+export default function App() {
   return (
     <View style={styles.container}>
-      <Exercicio6/>
+      <Exercicio09/>
     </View>
   );
 }
