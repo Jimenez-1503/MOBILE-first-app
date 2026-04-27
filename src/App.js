@@ -9,12 +9,12 @@ import Exercicio09 from './Lista-2 (FlexBox e ViewComponent)/exercicio-9';
 import ContadorExemplo from './hooks/useState-exemplo';
 import TelaDeLogin from './hooks/useRef-exemplo';
 import TelaMoeda from './hooks/useEffect-exemplo';
-
+import Recados from './hooks/exercicio-1';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <TelaMoeda/>
+      <Recados/>
     </View>
   );
 }
