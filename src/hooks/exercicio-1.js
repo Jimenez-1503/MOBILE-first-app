@@ -101,10 +101,10 @@ export default function Recados() {
         Dica: use a renderização condicional
           {recadoEnviado !== '' && (...)}
       */}
-      {handleEnviar !== "" && (
+      {recado !== "" && (
          <View style={styles.resultado}>              
             <Text style={styles.label}>Recado enviado:</Text>
-            <Text style={styles.recado}>{handleEnviar}</Text>
+            <Text style={styles.recado}>{recado}</Text>
         </View>
       )}
 
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   botao: {
-    backgroundColor: '#cc0000',
+    backgroundColor: '#2800ef',
     padding: 14,
     borderRadius: 8,
     alignItems: 'center',
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 16,
     borderLeftWidth: 4,
-    borderLeftColor: '#cc0000',
+    borderLeftColor: '#0026ff',
   },
   label: {
     fontSize: 12,
