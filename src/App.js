@@ -9,9 +9,9 @@ import FormularioExemplos from './txt_input/formulario-exemplo';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <NavigationConteiner style={styles.container}>
       <FormularioExemplos/>
-    </View>
+    </NavigationConteiner> 
   );
 }
 
