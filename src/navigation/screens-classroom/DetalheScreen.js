@@ -4,12 +4,15 @@
 
 import { StyleSheet, Text, View, Button } from "react-native";
 
-export default function DetalheScreen() {
+export default function DetalheScreen({navigation, route}) {
+
+  const {titulo, descricao} = route.params ?? {};
+
   return (
     <View style={styles.container}>
       <Text style={styles.titulo}>{titulo ?? "Detalhe"}</Text>
       <Text style={styles.titulo}>{descricao ?? "Screen"}</Text>
-      <Button title="Voltar" onPress={() => {}} />
+      <Button title="Voltar" onPress={() => navigation.goBack()} />
     </View>
   );
 }
